@@ -1,4 +1,4 @@
-library wod.Event;
+library wod.Events;
 
 abstract class GameEvent {
 }

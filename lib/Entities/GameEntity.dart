@@ -1,8 +1,8 @@
-library wod.GameObject;
-import 'package:wod/GameComponent.dart';
-import 'package:wod/GameEvent.dart';
+library wod.Entities;
 import 'dart:collection';
-import 'package:wod/UpdateEvent.dart';
+import 'package:wod/Events/GameEvent.dart';
+import 'package:wod/Components/GameComponent.dart';
+import 'package:wod/Events/UpdateEvent.dart';
 
 abstract class GameEntity {
   Queue<GameComponent> components = new Queue();
